@@ -121,6 +121,5 @@ unrolled_df = unroll_distance_matrix(matrix_df)
 threshold_df = find_ids_within_ten_percentage_threshold(unrolled_df,1001400)
 
 vehicle_rate_df = calculate_toll_rate(unrolled_df)
-print(vehicle_rate_df)
 
 
